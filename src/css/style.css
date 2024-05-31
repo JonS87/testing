@@ -1,0 +1,274 @@
+body {
+  /* Font & Text */
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 20px;
+	text-decoration: none solid rgb(51, 51, 51);
+	text-align: start;
+	text-indent: 0px;
+	text-transform: none;
+	white-space: normal;
+	word-spacing: 0px;
+
+  	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(51, 51, 51);
+
+  /* Box */
+	width: 457.5px;
+  border: 0px none rgb(51, 51, 51);
+	border-top: 0px none rgb(51, 51, 51);
+	border-right: 0px none rgb(51, 51, 51);
+	border-bottom: 0px none rgb(51, 51, 51);
+	border-left: 0px none rgb(51, 51, 51);
+	padding: 0px;
+	max-height: none;
+	min-height: 0px;
+	max-width: none;
+	min-width: 0px;
+
+  /* Positioning */
+	position: static;
+	top: auto;
+	bottom: auto;
+	right: auto;
+	left: auto;
+	float: none;
+	display: block;
+	clear: none;
+	z-index: auto;
+
+  	/* List */
+	list-style-image: none;
+	list-style-type: none;
+	list-style-position: outside;
+
+  /* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+
+  /* Miscellaneous */
+	overflow: visible;
+	cursor: auto;
+	visibility: visible;
+
+  /* Effects */
+	transform: none;
+	transition: all 0s ease 0s;
+	box-sizing: border-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+  display: table;
+  content: " ";
+}
+
+.col-md-5 {
+	/* Box */
+	height: 410px;
+	width: 750px;
+	margin: 0px;
+	padding: 0px 15px;
+	min-height: 1px;
+
+	/* Positioning */
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	display: block;
+
+	/* List */
+	list-style-type: disc;
+}
+
+h3 {
+	/* Font & Text */
+	font-size: 18.2px;
+  font-weight: 500;
+	line-height: 20.02px;
+
+	/* Box */
+	height: 20px;
+	margin: 20px 0px 10px;
+
+	/* List */
+	list-style-type: disc;
+}
+
+.list-unstyled {
+	/* Box */
+	height: 25px;
+	margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+.card {
+	/* Font & Text */
+	text-align: left;
+	text-indent: -9999px;
+  font-size: 0;
+
+	/* Color & Background */
+	background-position: 0 0;
+  background-repeat: no-repeat;
+  
+
+	/* Box */
+	height: 25px;
+	width: 39px;
+	margin-right: 4px;
+  display: inline-block;
+}
+
+#form {
+	/* Box */
+	height: 34px;
+	margin-top: 0em;
+  unicode-bidi: isolate;
+
+	/* List */
+	list-style-type: disc;
+}
+
+
+
+#card_number {
+	/* Font & Text */
+	text-decoration: none solid rgb(85, 85, 85);
+
+	/* Color & Background */
+	color: rgb(85, 85, 85);
+
+	/* Box */
+	height: 20px;
+	width: 170px;
+	border: 1px solid rgb(204, 204, 204);
+	border-top: 1px solid rgb(204, 204, 204);
+	border-right: 1px solid rgb(204, 204, 204);
+	border-bottom: 1px solid rgb(204, 204, 204);
+	border-left: 1px solid rgb(204, 204, 204);
+	margin: 0px;
+	padding: 6px 12px;
+	min-height: 1px;
+
+	/* Positioning */
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	float: left;
+	display: block;
+
+	/* List */
+	list-style-type: disc;
+
+	/* Miscellaneous */
+	cursor: text;
+
+	/* Effects */
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#submitform {
+	/* Font & Text */
+	text-decoration: none solid rgb(255, 255, 255);
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+
+	/* Color & Background */
+	background-color: rgb(68, 157, 68);
+	color: rgb(255, 255, 255);
+
+	/* Box */
+	height: 20px;
+	width: 99px;
+	border: 1px solid rgb(57, 132, 57);
+	border-top: 1px solid rgb(57, 132, 57);
+	border-right: 1px solid rgb(57, 132, 57);
+	border-bottom: 1px solid rgb(57, 132, 57);
+	border-left: 1px solid rgb(57, 132, 57);
+	margin: 0px 0px 0px 10px;
+	padding: 6px 12px;
+
+	/* Positioning */
+	display: inline-block;
+
+	/* List */
+	list-style-type: disc;
+
+	/* Miscellaneous */
+	cursor: pointer;
+
+	/* Effects */
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.visa {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-visa.gif);
+}
+
+.master {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-mastercard.gif);
+}
+
+.amex {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-amex.gif);
+  
+}
+
+.discover {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-discover.gif);
+}
+
+.jcb {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-jcb.gif);
+}
+
+.diners_club {
+  background-image: url(https://www.validcreditcardnumber.com/static/img/card-diners.gif);
+}
+
+.mir_pay {
+  background-image: url(../img/mir_pay.jpg);
+  background-size: cover;
+}
+
