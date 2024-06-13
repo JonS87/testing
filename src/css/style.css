@@ -243,28 +243,28 @@ li {
 }
 
 .visa {
-  background-image: url(https://www.validcreditcardnumber.com/static/img/card-visa.gif);
+  background-image: url(../img/card-visa.gif);
 }
 
 .master {
-  background-image: url(https://www.validcreditcardnumber.com/static/img/card-mastercard.gif);
+  background-image: url(../img/card-mastercard.gif);
 }
 
 .amex {
-  background-image: url(https://www.validcreditcardnumber.com/static/img/card-amex.gif);
+  background-image: url(../img/card-amex.gif);
   
 }
 
 .discover {
-  background-image: url(https://www.validcreditcardnumber.com/static/img/card-discover.gif);
+  background-image: url(../img/card-discover.gif);
 }
 
 .jcb {
-  background-image: url(https://www.validcreditcardnumber.com/static/img/card-jcb.gif);
+  background-image: url(../img/card-jcb.gif);
 }
 
 .diners_club {
-  background-image: url(https://www.validcreditcardnumber.com/static/img/card-diners.gif);
+  background-image: url(../img/card-diners.gif);
 }
 
 .mir_pay {
